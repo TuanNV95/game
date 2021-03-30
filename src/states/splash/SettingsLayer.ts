@@ -81,7 +81,7 @@ namespace MiniBillar {
                 this.add(buttonBot);
             }
 
-            const copyrightLabel = new Phaser.Text(this.game, GameVars.gameWidth * 0.5, GameVars.gameHeight - 46, "developed by RavalMatic", { font: "28px Oswald-DemiBold", fill: "#E5FFFF" });
+            const copyrightLabel = new Phaser.Text(this.game, GameVars.gameWidth * 0.5, GameVars.gameHeight - 46, "Clone from minipool.io", { font: "28px Oswald-DemiBold", fill: "#E5FFFF" });
             copyrightLabel.anchor.x = .5;
             copyrightLabel.alpha = .75;
             copyrightLabel.scale.set(GameVars.scaleXMult, GameVars.scaleYMult);
